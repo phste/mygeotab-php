@@ -1,7 +1,7 @@
 {
     "name": "tldev-de/mygeotab-php",
     "type": "library",
-    "description": "Unofficial PHP client for the MyGeotab API",
+    "description": "Unofficial fork of unofficial PHP client for the MyGeotab API",
     "keywords": ["geotab", "mygeotab", "api", "sdk"],
     "license": "Apache2",
     "authors": [
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "guzzlehttp/guzzle": "~7.0",
+        "guzzlehttp/guzzle": "^7.0",
         "monolog/monolog": "^2",
         "ext-json": "*"
     },

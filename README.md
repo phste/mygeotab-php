@@ -1,6 +1,9 @@
 MyGeotab PHP API Client
 ======================
 
+> :warning: This is an unofficial fork of the unofficial php api client. It equals the unofficial php client except the versions of some dependencies (`guzzlehttp/guzzle` and `monolog/monolog`) to make them compatible with modern php applications.
+
+
 [![Build Status](https://travis-ci.org/Geotab/mygeotab-php.svg?branch=master)](https://travis-ci.org/Geotab/mygeotab-php)
 [![Packagist](https://img.shields.io/packagist/dm/geotab/mygeotab-php.svg)](https://packagist.org/packages/geotab/mygeotab-php)
 
