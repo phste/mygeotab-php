@@ -177,10 +177,9 @@ class API
             ],
             "headers" => [
                 "User-Agent" => "mygeotab-php/1.0",
-                "Content-Type: application/x-www-form-urlencoded",
-                "Charset=UTF-8",
-                "Cache-Control: no-cache",
-                "Pragma: no-cache"
+                "Content-Type" => "application/x-www-form-urlencoded; charset=utf-8",
+                "Cache-Control" => "no-cache",
+                "Pragma" => "no-cache"
             ],
             "decode_content" => "gzip",
             "verify" => false,   // Need CA certificates, but this is a hack
